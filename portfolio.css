@@ -1,0 +1,79 @@
+.container {
+  display: grid;
+  height: 100vh;
+
+  /* pancake layout */
+  grid-template-rows: auto 1fr auto;
+  /* end pancake layout */
+}
+
+body {
+  background-color: #f4f6ff;
+  text-align: center;
+
+
+}
+
+
+h1 {
+  font-family:'Montaga';
+  font-weight: 300;
+  font-size:40px;
+  color : #094956;
+  letter-spacing: 5px
+    }
+
+
+header {
+  padding: 1.5rem;
+  color: white;
+  background: navy;
+}
+
+footer {
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
+  background: navy;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-grow: 1;
+
+}
+
+
+.cards img {
+  width: 100%;
+  max-width: 300px;
+  display:flex;
+  flex-basis: auto; 
+  flex-wrap: wrap; 
+  flex-grow: 1;
+
+}
+
+.card {
+  display:flex;
+  flex-basis: auto; 
+  flex-wrap: wrap; 
+  flex-grow: 1;  
+  margin: 7px;
+  padding: 7px;
+  align-items: center;
+  justify-content: space-between;
+  width: 21%;
+  justify-content: center;
+}
+
+.footer {
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-size:11px;
+  padding:10px;
+  font-family: 'Ubuntu', sans-serif;
+  color:#094956;
+}
