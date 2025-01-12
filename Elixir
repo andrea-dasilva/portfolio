@@ -28,6 +28,26 @@
 <div class="container">
 
       <main>
-        <div class="cards">
+<div class="cards">
 
           <div class="card">
+
+<video controls>
+  <source src="images/Elixir1.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
+
+       </div>
+
+          <div class="card">
+
+<video controls>
+  <source src="images/Elixir2.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
+
+       </div>
+
+ </div>
+
+</body>
