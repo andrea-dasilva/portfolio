@@ -61,8 +61,8 @@ footer {
   flex-basis: auto; 
   flex-wrap: wrap; 
   flex-grow: 1;  
-  margin: 7px;
-  padding: 7px;
+  margin: 4px;
+  padding: 4px;
   align-items: center;
   justify-content: space-between;
   width: 21%;
