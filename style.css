@@ -48,7 +48,7 @@ footer {
 
 .cards img {
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   display:flex;
   flex-basis: auto; 
   flex-wrap: wrap; 
